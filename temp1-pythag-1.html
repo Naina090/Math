@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Template 1 — Pythagorean Problem 1</title>
+  <link rel="stylesheet" href="./css/templates.css">
+</head>
+<body>
+  <div class="card">
+    <div class="template-head">
+      <div class="title">Template 1 — Trigonometry (Pythagorean)</div>
+      <div class="caption">Problem: Two perpendicular sides 9 and 12. Find hypotenuse (c).</div>
+    </div>
+
+    <!-- Fixed layout boxes: numbers/variables only inside existing boxes -->
+    <div class="box-row">
+      <div class="box var-box">a = <span class="num-box">9</span></div>
+      <div class="arrow">→</div>
+      <div class="box var-box">b = <span class="num-box">12</span></div>
+      <div class="arrow">→</div>
+      <div class="box">Find c</div>
+    </div>
+
+    <!-- Steps (must preserve layout) -->
+    <div class="step">
+      <div class="box">Step 1</div>
+      <div class="arrow">→</div>
+      <div class="box">Use formula <span class="frac-box">c² = a² + b²</span></div>
+    </div>
+
+    <div class="step">
+      <div class="box">Compute squares</div>
+      <div class="arrow">→</div>
+      <div class="box">a² = <span class="num-box">9² = 81</span></div>
+      <div class="box">b² = <span class="num-box">12² = 144</span></div>
+    </div>
+
+    <div class="step">
+      <div class="box">Add</div>
+      <div class="arrow">→</div>
+      <div class="box">81 + 144 = <span class="highlight">225</span></div>
+    </div>
+
+    <div class="step">
+      <div class="box">Square root</div>
+      <div class="arrow">→</div>
+      <div class="box">c = √225 = <span class="num-box">15</span></div>
+    </div>
+
+    <div class="caption">Answer: Hypotenuse c = 15</div>
+  </div>
+
+  <script src="./js/templates.js"></script>
+</body>
+</html>

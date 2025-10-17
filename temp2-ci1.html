@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Template 2 — Compound Interest Problem 1</title>
+  <link rel="stylesheet" href="./css/templates.css">
+</head>
+<body>
+  <div class="card">
+    <div class="template-head">
+      <div class="title">Template 2 — Compound Interest</div>
+      <div class="caption">Problem: A sum of ₹5000 amounts to ₹6050 in 2 years at compound interest. Find the annual rate.</div>
+    </div>
+
+    <div class="box-row">
+      <div class="box var-box">P = <span class="num-box">₹5,000</span></div>
+      <div class="arrow">→</div>
+      <div class="box var-box">A = <span class="num-box">₹6,050</span></div>
+      <div class="arrow">→</div>
+      <div class="box var-box">t = <span class="num-box">2 years</span></div>
+    </div>
+
+    <div class="step">
+      <div class="box">Formula</div>
+      <div class="arrow">→</div>
+      <div class="box">A = P (1 + r)^t</div>
+    </div>
+
+    <div class="step">
+      <div class="box">Substitute</div>
+      <div class="arrow">→</div>
+      <div class="box">6050 = 5000 (1 + r)^2</div>
+    </div>
+
+    <div class="step">
+      <div class="box">Divide</div>
+      <div class="arrow">→</div>
+      <div class="box">(1 + r)^2 = 6050 / 5000 = <span class="frac-box">1.21</span></div>
+    </div>
+
+    <div class="step">
+      <div class="box">Square root</div>
+      <div class="arrow">→</div>
+      <div class="box">1 + r = √1.21 = <span class="num-box">1.1</span></div>
+    </div>
+
+    <div class="step">
+      <div class="box">Subtract 1</div>
+      <div class="arrow">→</div>
+      <div class="box">r = 1.1 - 1 = <span class="highlight">0.1 = 10%</span></div>
+    </div>
+
+    <div class="caption">Answer: Rate = 10% per annum</div>
+  </div>
+
+  <script src="./js/templates.js"></script>
+</body>
+</html>
